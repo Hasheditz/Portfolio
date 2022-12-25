@@ -53,10 +53,10 @@
     font-size: 2rem;
   }
   .main-title h2 span {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .main-title h2 .bg-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .section {
     padding: 2rem 2.5rem;
@@ -109,13 +109,13 @@
         grid-template-columns: 1fr 1fr;
   }
   .main-title h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .main-title h2 span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .main-title h2 .bg-text {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 }
 
@@ -171,7 +171,7 @@
     background-color: var(--color-grey-5);
   }
   .controlls .control {
-    margin: .6rem 1rem !important;
+    margin: .5rem .9rem !important;
   }
 }
 
@@ -184,13 +184,13 @@
         grid-template-columns: 1fr;
   }
   .main-title h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .main-title span {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .main-title .bg-text {
-    font-size: 3.8rem;
+    font-size: 3rem;
   }
   .contact-content-con {
     -webkit-box-orient: vertical;

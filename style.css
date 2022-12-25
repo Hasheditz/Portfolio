@@ -261,8 +261,8 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-          clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 36% 0, 66% 55%, 35% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 36% 0, 66% 55%, 35% 100%, 0% 100%);
 }
 
 .header-content .left-header .image {

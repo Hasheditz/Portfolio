@@ -215,7 +215,13 @@
                     left: 0;
                     top: 0;
                     z-index: -1;
-                    clip-path: polygon(0 0, 46% 0,79% 100%, 0% 100%);
+                    // clip-path: polygon(0 0, 46% 0,79% 100%, 0% 100%);
+                    // clip-path: circle(50.6% at 0 50%);
+                    clip-path: polygon(0% 0%, 36% 0, 66% 55%, 35% 100%, 0% 100%);
+                    // clip-path: polygon(55% 0, 100% 50%, 55% 100%, 0% 100%, 0 61%, 0% 0%);
+
+
+
                 }
 
                 .image{
