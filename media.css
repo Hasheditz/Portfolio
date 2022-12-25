@@ -108,13 +108,48 @@
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
-  .main-title h2 {
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icons .icon {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 .4rem;
+    cursor: pointer;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .icons .icon i {
+    font-size: .9rem;
+    color: var(--color-white);
+    margin: 0 .5rem;
+  }
+  .icons .main-title h2 {
     font-size: 3rem;
   }
-  .main-title h2 span {
+  .icons .main-title h2 span {
     font-size: 3rem;
   }
-  .main-title h2 .bg-text {
+  .icons .main-title h2 .bg-text {
     font-size: 3.5rem;
   }
 }
@@ -176,6 +211,41 @@
 }
 
 @media screen and (max-width: 765px) {
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icons .icon {
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 .2rem;
+    cursor: pointer;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  .icons .icon i {
+    font-size: .7rem;
+    color: var(--color-white);
+    margin: 0 .2rem;
+  }
   .section {
     padding: 7rem 3rem;
   }
